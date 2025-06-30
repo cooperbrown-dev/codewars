@@ -1,3 +1,20 @@
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+function boolToWord( bool ){
+  //...
+}
+
+// My Solution
+function boolToWord( bool ){
+  if(bool === true){
+    return "Yes"
+  }else{
+    return "No"
+  }
+}
+
+// ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 // Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
 
 // Examples:
