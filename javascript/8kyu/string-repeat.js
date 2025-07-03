@@ -13,7 +13,6 @@
 
 // My Solution:
 
-function removeChar(str){
- return str.slice(1, str.length - 1)
- 
-};
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
